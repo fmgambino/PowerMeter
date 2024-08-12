@@ -1,0 +1,16 @@
+{
+    "name": "PowerMeter",
+    "version": "1.0.0",
+    "description": "Una biblioteca para medir voltaje, corriente y calcular métricas de potencia.",
+    "authors": [
+        {
+            "name": "Ing. Fernando Gambino",
+            "email": "electronicagambino@gmail.com",
+            "url": "https://electronicagambino.com"
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": "espressif32",
+    "dependencies": []
+}
