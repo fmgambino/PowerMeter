@@ -1,16 +1,22 @@
 {
     "name": "PowerMeter",
     "version": "1.0.0",
-    "description": "Una biblioteca para medir voltaje, corriente y calcular métricas de potencia.",
+    "description": "Una biblioteca para medir voltaje, corriente y potencia utilizando sensores ZMPT101B y ZMCT103C.",
+    "keywords": "potencia, voltaje, corriente",
     "authors": [
-        {
-            "name": "Ing. Fernando Gambino",
-            "email": "electronicagambino@gmail.com",
-            "url": "https://electronicagambino.com"
-        }
+      {
+        "name": "Ing. Fernando Gambino",
+        "email": "electronicagambino@gmail.com",
+        "url": "https://electronicagambino.com"
+      }
     ],
     "license": "MIT",
-    "frameworks": "arduino",
-    "platforms": "espressif32",
-    "dependencies": []
-}
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/fmgambino/PowerMeter.git"
+    },
+    "dependencies": [],
+    "frameworks": ["arduino"],
+    "platforms": ["espressif32"]
+  }
+  
